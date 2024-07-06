@@ -1,0 +1,31 @@
+.bg-img {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:-1;
+}
+
+.body {
+    overflow-x: hidden !important;
+}
+
+.footer {
+    overflow-x: hidden;
+}
+
+#maindiv {
+    padding: -20px;
+ 
+}
+
+#name {
+    margin-bottom: 280px;
+}
+
+#hobbies-list {
+    list-style-type: none;
+}
